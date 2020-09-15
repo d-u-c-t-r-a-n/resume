@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    background-color:white;
+    font: normal 15pt Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: justify;
+}
+
+a{
+    font-size: 12pt;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 14pt;
+    border-bottom: 2.25pt rgb(0, 105, 249) solid;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+p{
+    font: normal 11pt Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    
+}
+
+p.information-address{
+    margin-left: 0;
+}
+
+p.github{
+    margin-left: 0;
+}
+
+ul.first-indent{
+    list-style-type: bullet;
+    padding-left: 1em;
+}
+
+ul.second-indent{
+    list-style-type: circle;
+    padding-left: 3em;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+
+.myPadding{
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+}
+
+.information{
+    text-align: center;
+}
+
+.information h1{
+    font-weight: bold;
+    color: rgb(0, 105, 249);
+}
+
+.information h4{
+    font: normal 12pt Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.information-name:before{
+    content: "DUC TRAN";
+}
+
+.information-position:before{
+    content: "B.C.S Candidate"
+}
+
+.information-address:before{
+    font: normal 10pt Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    content: "288 Woodfield Drive, Nepean, Ontario, K2G 3W9 – duc.tran@live.ca – (613) 413 7988"
+}
+
+
+.myHeading{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.education-title:before{    
+    content: "EDUCATION"
+}
+
+.totheleft {
+    float: left;
+    padding-top: 5px;
+    font-weight: bold;   
+    font-size: 11pt; 
+}
+
+.totheleft-second-indent{
+    float: left;
+    padding-top: 5px;     
+    font-size: 11pt; 
+    text-align: left;
+}
+
+.totheleft.education1:before{
+    content: "Carleton University, Ottawa, Ontario"
+}
+
+.totheright.education1:before{
+    content: "Sept 2019 – Dec 2022 (Expected)"
+}
+
+.totheleft-second-indent.education1:before{
+    content: "Honours Bachelor of Computer Science, specialization in Algorithms"
+}
+
+.totheleft.education2:before{
+    content: "Stanford University, Online"
+}
+
+.totheright.education2:before{
+    content: "Aug 2020"
+}
+
+.totheleft-second-indent.education2:before{
+    content: "Certificate of Achievement: Machine Learning"
+}
+
+.skills-title:before{
+    content: "SKILLS"
+}
+
+.skills{
+    float: left;
+    padding-top: 5px;
+    font-weight: normal;   
+    font-size: 11pt; 
+    text-align: left;
+    clear: both;
+}
+
+.skills.skill1:before{
+    content: "Advanced knowledge of iOS, Windows, Microsoft Office (Word, Excel, PowerPoint, Access Outlook)"
+}
+
+.skills.skill2:before{
+    content: "Advanced proficiency of self-driven in research for problem solving, time management skill, emotional labour, and in meeting self-set goals"
+}
+
+.skills.skill3:before{
+    content: "Intermediate knowledge of Python, Java, Octave and VBA"
+}
+
+.skills.skill4:before{
+    content: "Intermediate proficiency of Discrete Structures"
+}
+
+.skills.skill5:before{
+    content: "Basic knowledge of Machine Learning: Supervised Learning, Unsupervised Learning, Reinforcement Learning"
+}
+
+.skills.skill6:before{
+    content: "Ongoing training: C, C++, OQL, JavaScript, Prolog, and Data Structures"
+}
+
+.skills.skill7:before{
+    content: "Language: English (Fluent), Vietnamese (Native)"
+}
+
+.totheright {
+    padding-top: 5px;
+    float: right;
+    list-style-type: none;
+    font-size: 11pt; 
+}
+
+.employment-title:before{
+    content: "EMPLOYMENT EXPERIENCE"
+}
+
+.totheleft.employment1:before{
+    content: "Carleton University, Ottawa, Ontario"
+}
+
+.totheleft.employment-position1:before{
+    content: "Teaching Assistant – Introduction to Computer Science"
+}
+
+.totheright.employment-date1:before{
+    content: "September 2020 – Present"
+}
+
+.employments{
+    float: left;
+    padding-top: 5px;
+    font-weight: normal;   
+    font-size: 11pt; 
+    text-align: left;
+    clear: both;
+}
+
+.employments.employment1-details1:before{
+    content: "Conducting tutorials and lab demonstrations"
+}
+
+.employments.employment1-details2:before{
+    content: "Holding office hours outside scheduled lectures"
+}
+
+.employments.employment1-details3:before{
+    content: "Grading weekly reports, assignments, and midterms"
+}
+
+.employments.employment1-details4:before{
+    content: "Proctoring virtual exams"
+}
+
+.littlePadding{
+    margin-top: 1em;
+}
+
+.totheleft.littlePadding.employment2:before{    
+    content: "ICE International Currency Exchange, Ottawa, Ontario"
+}
+
+.totheleft.employment-position2:before{
+    content: "Teller"
+}
+
+.totheright.employment-date2:before{
+    content: "February 2017 – Present"
+}
+
+.employments.employment2-details1:before{
+    content: "Assisting in currency exchange, provided destinations’ insights, and educated customers about desired currencies which resulted in year-over-year sales increased up to 20%"
+}
+
+.employments.employment2-details2:before{
+    content: "Conducting currencies authentication on transactional basis and numerous cases of counterfeit were reported with value up to $4,000 "
+}
+
+.employments.employment2-details3:before{
+    content: "Assuring code of conduct and ethics followed guidelines and procedures designed by FINTRAC resulted in transactional denials and reported suspicious sources of fund as well as questionable intentions to the management"
+}
+
+.employments.employment2-details4:before{
+    content: "Automating daily operation by the creation of the following spreadsheets:"
+}
+
+.totheleft-second-indent.e2d4-1:before{
+    content: "Click and Collect Order Sheet: Organize Click and Collect orders and smoothen daily operation by maintaining sufficient level of stock"
+}
+
+.totheleft-second-indent.e2d4-2:before{
+    content: "Bonus Tracking System: This sheet was created when a new bonus system, where bonuses were rewarded if sales reached certain goals, was introduced.  This sheet was proven to help tellers visualize how hard one needs to push to achieve personal and organizational goals"
+}
+
+.achievement-title:before{    
+    content: "ACHIEVEMENTS"
+}
+
+.totheleft.achievement1:before{
+    content: "Carleton University, Ottawa, Ontario"
+}
+
+.totheleft.achievement1.details:after{
+    font-weight: normal;
+    content: " – Deans’ Honour List";
+}
+
+.totheright.achivement1-date:before{
+    content: "2019 – 2020"
+}
+
+.volunteer-title:before{
+    content: "VOLUNTEER EXPERIENCE"
+}
+
+.totheleft.experience1:before{
+    content: "Carleton University, Ottawa, Ontario"
+}
+.totheright.experience1-date:before{
+    content: "Fall 2019"
+}
+
+.experiences{
+    float: left;
+    padding-top: 5px;
+    font-weight: normal;   
+    font-size: 11pt; 
+    text-align: left;
+    clear: both;
+}
+
+.experiences.experience1-details:before{
+    content: "First Year Connections Mentee: Established more insights about individual and group dynamics together with understanding developed in working with others";
+}
+
+.totheleft.littlePadding.experience2:before{
+    content: "Intertek, Ho Chi Minh City, Vietnam";
+}
+
+.totheright.experience2-date:before{
+    content: "June 2017";
+}
+
+.headerPadding{
+    padding-top: 1em;
+}
+
+.footerPadding{
+    padding-bottom: 3em;
+}
+
+.experiences.footerPadding.experience2-details:before{
+    content: "Fundraising Associate: Held and coordinated workshop on usages of computer for kids in rural region and raised more than $1,000 in donation for local school";
+}
+
+.myClear{
+    clear: both;
+}
+
+
+
+
