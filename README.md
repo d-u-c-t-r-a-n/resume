@@ -2,4 +2,4 @@
 
 What I learned:  
 1. Basic frontend JavaScript  
-2. 
+2. Content encapsulation
